@@ -1,4 +1,1 @@
-- 👋 Hi, I’m @EauMareSea
-- Im a HTML / CSS / LUA developer ! 
-- I’m currently learning JS and Python !
-- Im open with partenership
+
