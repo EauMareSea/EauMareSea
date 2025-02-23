@@ -5,7 +5,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 header {
     margin-top: 20px;
     margin-left: 20px;
@@ -14,6 +13,7 @@ header {
     padding: 20px;
     border-radius: 20px;
 }
+
 
 .navbar {
     display: flex;
@@ -31,8 +31,9 @@ header {
 
 .buttonline {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
 }
+
 
 .buttonline button {
     color: aliceblue;
@@ -45,15 +46,33 @@ header {
     transition: background-color 0.3s ease;
 }
 
-.square{
-    display: flex;
-    position: absolute;
+
+.square {
+    width: 1250px;
+    height: 500px;
     background-color: #394150;
-    width: 800px;
-    height: 400px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    border-radius: 20px;
+    border-radius: 20px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1e24;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
 }
