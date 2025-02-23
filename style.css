@@ -1,0 +1,59 @@
+
+body {
+    background-color: #4b5568;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #394150;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.title {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.buttonline {
+    display: flex;
+    gap: 20px; 
+}
+
+.buttonline button {
+    color: aliceblue;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.square{
+    display: flex;
+    position: absolute;
+    background-color: #394150;
+    width: 800px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
